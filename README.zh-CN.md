@@ -1,4 +1,4 @@
-# Solution Research · 方案调研
+# Solution Scout · 方案探索
 
 在实现前调查现成做法，帮助用户选定适合当前约束的方向。
 
@@ -23,14 +23,14 @@
 
 ## 安装
 
-下载或克隆仓库，将内容放入代理配置的 skill 目录，目录名为 `solution-research`，并确保该目录根部包含 `SKILL.md`。`agents/openai.yaml` 是供支持它的宿主读取的界面元数据。
+下载或克隆仓库，将内容放入代理配置的 skill 目录，目录名为 `solution-scout`，并确保该目录根部包含 `SKILL.md`。`agents/openai.yaml` 是供支持它的宿主读取的界面元数据。
 
 已安装同名 skill 时，先比较内容再决定是否替换。按所用代理的说明刷新或重新发现 skill。
 
 ## 使用示例
 
 ```text
-用 $solution-research 调研桌面应用离线搜索的实现方案。
+用 $solution-scout 调研桌面应用离线搜索的实现方案。
 沿用现有技术栈，优先考虑维护成本，给我推荐、取舍和来源。
 ```
 
@@ -51,7 +51,8 @@
 
 ## 版本
 
-- [v1.0.0](https://github.com/okayyoo/solution-research/tree/v1.0.0)：原始 skill，保存在首次提交中。
-- [v1.1.0](https://github.com/okayyoo/solution-research/tree/v1.1.0)：完善决策边界、证据要求、工具兼容及使用文档。
+- [v1.0.0](https://github.com/okayyoo/solution-scout/tree/v1.0.0)：原始 skill，保存在首次提交中。
+- [v1.1.0](https://github.com/okayyoo/solution-scout/tree/v1.1.0)：完善决策边界、证据要求、工具兼容及使用文档。
+- [v1.1.1](https://github.com/okayyoo/solution-scout/tree/v1.1.1)：更新为 Solution Scout 名称、调用方式与文档。
 
-[提交历史](https://github.com/okayyoo/solution-research/commits/main/) · [版本差异](https://github.com/okayyoo/solution-research/compare/v1.0.0...v1.1.0)
+[提交历史](https://github.com/okayyoo/solution-scout/commits/main/) · [版本差异](https://github.com/okayyoo/solution-scout/compare/v1.0.0...v1.1.1)

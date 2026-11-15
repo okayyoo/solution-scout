@@ -1,4 +1,4 @@
 interface:
-  display_name: "Solution Research"
+  display_name: "Solution Scout"
   short_description: "Research viable solutions and explain the trade-offs"
-  default_prompt: "Use $solution-research to compare viable approaches for my request and recommend one with sources and trade-offs."
+  default_prompt: "Use $solution-scout to compare viable approaches for my request and recommend one with sources and trade-offs."

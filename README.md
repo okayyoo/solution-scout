@@ -1,4 +1,4 @@
-# Solution Research
+# Solution Scout
 
 An agent skill for researching and choosing an approach before implementation.
 
@@ -17,14 +17,14 @@ Routine fixes, small edits, and fully specified execution do not automatically t
 
 ## Install
 
-Download or clone this repository. Place its contents in a directory named `solution-research` inside your agent's configured skill directory. The directory must contain `SKILL.md` at its root; it may also include `agents/openai.yaml` for hosts that use that metadata.
+Download or clone this repository. Place its contents in a directory named `solution-scout` inside your agent's configured skill directory. The directory must contain `SKILL.md` at its root; it may also include `agents/openai.yaml` for hosts that use that metadata.
 
 If a skill with the same name is already installed, compare the instructions before replacing it. Follow your agent's own discovery or reload procedure.
 
 ## Use
 
 ```text
-Use $solution-research to compare approaches for adding offline search
+Use $solution-scout to compare approaches for adding offline search
 to our desktop application. Keep our existing stack and minimize
 ongoing maintenance. Recommend an approach with sources and trade-offs.
 ```
@@ -34,7 +34,7 @@ The instruction file is written in Chinese and asks the agent to respond in the 
 ## Contents
 
 ```text
-solution-research/
+solution-scout/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── README.md
@@ -46,7 +46,8 @@ This is an instruction skill, with no executable runtime or required package dep
 
 ## Versions
 
-- [v1.0.0](https://github.com/okayyoo/solution-research/tree/v1.0.0): the original skill, preserved as the first commit.
-- [v1.1.0](https://github.com/okayyoo/solution-research/tree/v1.1.0): refined decision boundaries, evidence requirements, tool portability, and documentation.
+- [v1.0.0](https://github.com/okayyoo/solution-scout/tree/v1.0.0): the original skill, preserved as the first commit.
+- [v1.1.0](https://github.com/okayyoo/solution-scout/tree/v1.1.0): refined decision boundaries, evidence requirements, tool portability, and documentation.
+- [v1.1.1](https://github.com/okayyoo/solution-scout/tree/v1.1.1): Solution Scout naming, invocation, and documentation.
 
-[Commit history](https://github.com/okayyoo/solution-research/commits/main/) · [Compare versions](https://github.com/okayyoo/solution-research/compare/v1.0.0...v1.1.0)
+[Commit history](https://github.com/okayyoo/solution-scout/commits/main/) · [Compare versions](https://github.com/okayyoo/solution-scout/compare/v1.0.0...v1.1.1)
